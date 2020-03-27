@@ -6,7 +6,7 @@
 //get the custom element
 //set up the listener
 window.onload = function(){
-  var tag = document.getElementById('name-tag');
+  var tag = document.getElementById('tag');
 tag.addEventListener('click', myModNS.sayMsg);
 
 }

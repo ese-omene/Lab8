@@ -62,7 +62,7 @@
 		var root = host.attachShadow({mode:'open'});
 		var tmplt = document.querySelector('template');
 		console.log(tmplt);
-		 root.appendChild(document.importNode(tmplt.content, true));
+		// root.appendChild(document.importNode(tmplt.content, true));
 		</script>
 		<template id="name-tag">
 			<style>
@@ -113,7 +113,7 @@
 		}
 		customElements.define('name-tag-element', NameTag);
 		</script>
-<name-tag-element>
+<name-tag-element id='tag'>
 	<span slot="name">Maggie</span>
 	<style>
 	name-tag-element {

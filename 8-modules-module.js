@@ -4,8 +4,8 @@
 //IFFI goes here  that will have the function for when the thing gets clicked on
 var myModNS = (function(){
 var devName = "Ese";
-var modName = "modNpop";
-var myMessage = devName + "created this " + modName + "module!"
+var modName = "citeMe";
+var myMessage = devName  +" created this " + modName + " module!"
 
 var citeMe = function(){
   alert(myMessage);
